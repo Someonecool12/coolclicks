@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Clicker Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🍪 Cookie Clicker</h1>
+    <p>Cookies: <span id="cookie-count">0</span></p>
+    <button id="click-button">Click Me!</button>
+
+    <h2>Upgrades</h2>
+    <button id="upgrade-button">Upgrade (+1 per click) - Cost: <span id="upgrade-cost">10</span></button>
+    <p>Click Power: <span id="click-power">1</span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
